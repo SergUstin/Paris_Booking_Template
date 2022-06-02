@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paris_Booking_Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container clearfix">
+        <div class="header__left">
+          <a href="#" class="header__logo">
+            TravelCream
+          </a>
+          <nav class="header__nav">
+            <ul>
+              <li><a href="#">Flights</a></li>
+              <li><a href="#">Hotels</a></li>
+              <li><a href="#">Trips</a></li>
+              <li><a href="#">Activity</a></li>
+              <li><a href="#">Deals</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__right">
+          <button class="header__login">Login</button>
+        </div>
+      </div>
+    </header>
+    <section class="first">
+      <div class="container">
+        <h1 class="first__heading">
+          Do you want tot visit Paris ?
+        </h1>
+        <p class="first__descr">
+          Why not
+        </p>
+        <form class="first__form">
+          <input type="text" placeholder="Where are you living from ?">
+          <input type="text" placeholder="Where do you want to go ?">
+          <input type="text" class="small-input" placeholder="Date">
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="fligths">
+      <div class="container">
+        <div class="flights__top clearfix">
+          <h2 class="flights__heading">
+            Flights
+          </h2>
+          <div class="flights__links">
+            <ul>
+              <li><a href="#" class="active">Non stop</a></li>
+              <li><a href="#">Best Price</a></li>
+              <li><a href="#">Airline</a></li>
+              <li><a href="#">Schedule</a></li>
+            </ul>
+          </div>          
+        </div>
+        <div class="flights__table">
+          <table>
+            <thead>
+              <tr>
+                <td>Airline</td>
+                <td>Date</td>
+                <td>Departure</td>
+                <td>Arrival</td>
+                <td>Time</td>
+                <td>Price</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <img src="img/vueling.png" alt="Логотип компании">
+                  <div class="text">
+                    Vueling
+                    <span>VO1367</span>                  
+                  </div>
+                </td>
+                <td>
+                  03/11/2017
+                  <span>In 3 days</span>
+                </td>
+                <td>
+                  Paris (CDG)
+                  <span>07:15</span>
+                </td>
+                <td>
+                  Miami
+                  <span>5:00</span>
+                </td>
+                <td>
+                  08:45
+                  <span>CDG - MIA</span>
+                </td>
+                <td>
+                  <button class="main-btn">870 $</button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/af-icon.png" alt="Логотип компании">
+                  <div class="text">
+                    Air France
+                    <span>AF90</span>                  
+                  </div>
+                </td>
+                <td>
+                  03/11/2017
+                  <span>In 3 days</span>
+                </td>
+                <td>
+                  Paris (CDG)
+                  <span>03:00</span>
+                </td>
+                <td>
+                  Miami
+                  <span>11:45</span>
+                </td>
+                <td>
+                  08:45
+                  <span>CDG - MIA</span>
+                </td>
+                <td>
+                  <button class="main-btn">870 $</button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/aa-icon.png" alt="Логотип компании">
+                  <div class="text">
+                    American
+                    <span>AA63</span>                  
+                  </div>
+                </td>
+                <td>
+                  03/11/2017
+                  <span>In 3 days</span>
+                </td>
+                <td>
+                  Paris (CDG)
+                  <span>01:00</span>
+                </td>
+                <td>
+                  Miami
+                  <span>10:00</span>
+                </td>
+                <td>
+                  09:00
+                  <span>CDG - MIA</span>
+                </td>
+                <td>
+                  <button class="main-btn">870 $</button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/delta-icon.png" alt="Логотип компании">
+                  <div class="text">
+                    Delta
+                    <span>DL405</span>                  
+                  </div>
+                </td>
+                <td>
+                  03/11/2017
+                  <span>In 3 days</span>
+                </td>
+                <td>
+                  Paris (CDG)
+                  <span>02:30</span>
+                </td>
+                <td>
+                  Miami
+                  <span>11:00</span>
+                </td>
+                <td>
+                  08:30
+                  <span>CDG - MIA</span>
+                </td>
+                <td>
+                  <button class="main-btn">870 $</button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/transavia-icon.png" alt="Логотип компании">
+                  <div class="text">
+                    Transavia
+                    <span>T04330</span>                  
+                  </div>
+                </td>
+                <td>
+                  03/11/2017
+                  <span>In 3 days</span>
+                </td>
+                <td>
+                  Paris (CDG)
+                  <span>00:00</span>
+                </td>
+                <td>
+                  Miami
+                  <span>10:00</span>
+                </td>
+                <td>
+                  08:00
+                  <span>CDG - MIA</span>
+                </td>
+                <td>
+                  <button class="main-btn">870 $</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="flights_table_link">
+            <a href="">See all flights</a>
+          </div>
+        </div>        
+      </div>
+    </section>
+    <section class="hotels">
+      <div class="container">
+        <div class="hotels__top clearfix">
+          <h2 class="hotels__heading">Hotels</h2>
+          <div class="hotels__links">
+            <ul>
+              <li><a href="#">Best Price</a></li>
+              <li><a href="#">Distance</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="hotels__items">
+          <div class="hotels__item">
+            <figure class="hotels__image">
+              <img src="img/hotels-img.jpg" alt="">
+            </figure>
+            <div class="hotels__text">
+              <h3 class="hotels_title">Hôtel Paris Ouest Achères</h3>
+              <div class="hotels__props clearfix">
+                <div class="hotels__distance">12,3 km</div>
+                <div class="hotels__services">Free Wi-Fi</div>
+              </div>
+              <button class="hotels__button main-btn">30 $</button>
+            </div>
+          </div>
+          <div class="hotels__item">
+            <figure class="hotels__image">
+              <img src="img/hotels-img1.jpg" alt="">
+            </figure>
+            <div class="hotels__text">
+              <h3 class="hotels_title">L'Hôtel du Collectionneur</h3>
+              <div class="hotels__props clearfix">
+                <div class="hotels__distance">9,8 km</div>
+                <div class="hotels__services">Free Wi-Fi</div>
+              </div>
+              <button class="hotels__button main-btn">38 $</button>
+            </div>
+          </div>
+          <div class="hotels__item">
+            <figure class="hotels__image">
+              <img src="img/hotels-img2.jpg" alt="">
+            </figure>
+            <div class="hotels__text">
+              <h3 class="hotels_title">Hôtel Eiffel Seine</h3>
+              <div class="hotels__props clearfix">
+                <div class="hotels__distance">17,6 km</div>
+                <div class="hotels__services">Free Wi-Fi</div>
+              </div>
+              <button class="hotels__button main-btn">42 $</button>
+            </div>
+          </div>
+          <div class="hotels__item">
+            <figure class="hotels__image">
+              <img src="img/hotels-img3.jpg" alt="">
+            </figure>
+            <div class="hotels__text">
+              <h3 class="hotels_title">Hôtel Mademoiselle</h3>
+              <div class="hotels__props clearfix">
+                <div class="hotels__distance">23,2 km</div>
+                <div class="hotels__services">Free Wi-Fi</div>
+              </div>
+              <button class="hotels__button main-btn">46 $</button>
+            </div>
+          </div>
+          <div class="hotels__item">
+            <figure class="hotels__image">
+              <img src="img/hotels-img4.jpg" alt="">
+            </figure>
+            <div class="hotels__text">
+              <h3 class="hotels_title">Hôtel Novotel Paris-Les-Halles</h3>
+              <div class="hotels__props clearfix">
+                <div class="hotels__distance">10,7 km</div>
+                <div class="hotels__services">Free Wi-Fi</div>
+              </div>
+              <button class="hotels__button main-btn">52 $</button>
+            </div>
+          </div>
+          <div class="hotels__item">
+            <figure class="hotels__image">
+              <img src="img/hotels-img5.jpg" alt="">
+            </figure>
+            <div class="hotels__text">
+              <h3 class="hotels_title">Villa Royale Montsouris</h3>
+              <div class="hotels__props clearfix">
+                <div class="hotels__distance">14,8 km</div>
+                <div class="hotels__services">Free Wi-Fi</div>
+              </div>
+              <button class="hotels__button main-btn">56 $</button>
+            </div>
+          </div>
+        </div>
+        <div class="hotels__link">
+          <a href="">See all hotels</a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__column">
+          <div class="footer__title">Cities</div>
+          <ul class="footer__nav">
+            <li><a href="#">Paris</a></li>
+            <li><a href="#">Miami</a></li>
+            <li><a href="#">London</a></li>
+            <li><a href="#">Madrid</a></li>
+            <li><a href="#">Tokyo</a></li>
+            <li><a href="#">Pekin</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <div class="footer__title">Explore</div>
+          <ul class="footer__nav">
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Assistance</a></li>
+            <li><a href="#">Eco</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <div class="footer__title">About us</div>
+          <ul class="footer__nav">
+            <li><a href="#">About TravelCream</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Term of Usage</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <div class="footer__title">Contact</div>
+            <span class="footer__text">Feel free to get touch via email:</span>
+            <a href="mailto:support@travelcream.com" class="footer__mail">support@travelcream.com</a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+
+</html>
